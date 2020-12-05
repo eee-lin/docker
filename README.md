@@ -45,6 +45,8 @@ my-nginx -> コンテナ名
 
 `docker ps -a`
 
+`docker volume ls` -> 現在自分のパソコン内にある Docker で管理しているデータ群（volume） を確認することが可能
+
 ### コンテナの再実行
 `docker start my-nginx`
 
@@ -64,3 +66,7 @@ my-nginx -> 自分で設定したコンテナ名
 
 [nginx](https://registry.hub.docker.com/_/nginx/)
 [docker コマンド 基本のキ（nginx のコンテナを実行してみる）](https://qiita.com/thirota/items/dcfc43cb042448a8f8aa)
+
+## docker file
+
+[Dockerfileの書き方と使い方](https://blog.codecamp.jp/docker-file-how-to)
