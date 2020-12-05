@@ -62,4 +62,5 @@ my-nginx -> 自分で設定したコンテナ名
 
 `docker rmi nginx:latest`
 
-[参考文献](https://registry.hub.docker.com/_/nginx/)
+[nginx](https://registry.hub.docker.com/_/nginx/)
+[docker コマンド 基本のキ（nginx のコンテナを実行してみる）](https://qiita.com/thirota/items/dcfc43cb042448a8f8aa)
